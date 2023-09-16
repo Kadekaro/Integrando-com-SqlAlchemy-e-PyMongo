@@ -5,7 +5,7 @@ import pprint
 from bson import ObjectId
 
 # Conectando ao cluster MongoDB
-client = pym.MongoClient("mongodb+srv://kadekaro:kiyoshi123@clusterteste.zjv7moo.mongodb.net/?retryWrites=true&w"
+client = pym.MongoClient("mongodb+srv://kadekaro:<password>@clusterteste.zjv7moo.mongodb.net/?retryWrites=true&w"
                          "=majority")
 
 # Acessando o banco de dados e a coleção
